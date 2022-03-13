@@ -1,0 +1,33 @@
+git init       step1
+git status  (optional)
+git add file or path (step 2)
+git remote add origin <https://github.com/username/projectname>.git (copy from the webpage)    (step 3)
+git commit -m "initial-commit" (step 4)     if fails , do follow the highlighted steps ........ else follow step 5
+==================================after commiting , you will get an errors like this===========================
+***************************set email using the following code*****************************************
+git config --global user.email "16781a0592@gmail.com"
+git config --global user.name "ven593"
+
+repeat step 4
+authenticate
+then . proceed to step 5
+=====================================================================================================
+git config -l
+
+git push -u origin master (step 5)
+
+
+===========================================================================================
+git clone <URL of the project>                                              // for copying the project from the github of a specific user
+
+git add .   				// for addding all the files to the repository.
+
+=======================================branches====================================================
+
+git checkout -b <branchName>            //creates new branch  and move to new Created branch.
+
+git checkout <branchName>		//change the working branch to given branch
+
+git push origin <branchName>
+
+==============================================================
